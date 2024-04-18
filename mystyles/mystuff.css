@@ -1,0 +1,107 @@
+
+.background{
+    text-align: center;
+    background-image:url(../myassets/conner-bowe-I7UjBrOzPMQ-unsplash.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub{
+    font-weight: 700;
+    font: black;
+    font-size: 28px;
+}
+
+.text{
+    font-size: 14 px;
+    color: darkslategrey;
+}
+h1 {
+    font-size: 64px;
+    font-family: 'Bebas Neue', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.all{
+    background-color: grey;
+    border-color: black;
+    border-width: 4px;
+    padding: 0;
+    
+}
+.header{
+    position:fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    text-align: center;
+    background-color: black;
+    z-index: 3;
+    vertical-align: middle;
+}
+/* .rightmenu{
+    position:fixed;
+    right: 0px;
+    top: 100px;
+    width: 100px;
+    bottom: 40px;
+}
+.leftmenu{
+    position: fixed;
+    left: 0px;
+    top: 40px;
+    width: 100px;
+    bottom: 40px;
+    text-align: left;
+}*/
+.body{
+    position: relative;
+    left: 0cap;
+    right: 0px;
+    bottom: 0px;
+    top: 100px;
+    z-index: 2;
+    background-image: url('myassets/1x/Artboard 1.png');
+    background-size: cover;
+    padding: 32px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: antiquewhite;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* .footer{
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    z-index: 2;
+    position: fixed;
+    border: 10px;
+} */
+
+ul{
+   line-height: 48px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 12px;
+    line-height: 12px;
+}
+a:hover{
+    color: aquamarine;
+    font: bold;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
